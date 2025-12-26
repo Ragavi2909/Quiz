@@ -1,0 +1,20 @@
+# Auto-normalize text files to avoid CRLF/LF issues
+* text=auto
+
+# Binary files should be left alone
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.jar binary
+*.exe binary
+*.dll binary
+
+# Shell scripts should keep LF
+*.sh text eol=lf
+
+# PowerShell scripts should keep CRLF on Windows
+*.ps1 text eol=crlf
