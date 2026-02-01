@@ -1,4 +1,4 @@
-# Quiz App (Full Stack)
+# Quiz Application (Full Stack)
 
 Full-stack quiz application with a Next.js frontend and an Express + MongoDB backend. Users can browse topics, take quizzes, create quizzes, and track progress.
 
